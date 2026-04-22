@@ -1,2 +1,0 @@
-# trabajo_clase
-pagina
