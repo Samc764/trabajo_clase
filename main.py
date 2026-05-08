@@ -11,9 +11,9 @@ class Item(BaseModel):
     price: float
 
 mock_items = [
-    Item(id=1, name="Camiseta", description="Camiseta de algodón", price=19.99),
-    Item(id=2, name="Libreta", description="Libreta para apuntes", price=7.5),
-    Item(id=3, name="Mochila", description="Mochila escolar", price=34.0),
+    Item(id=1, name="dibujo", description="Dibujo", price=19.99),
+    Item(id=2, name="Dibujos", description="dibujos", price=7.5),
+    Item(id=3, name="dibujo", description="dibujo", price=34.0),
 ]
 
 @app.get("/", tags=["home"])
